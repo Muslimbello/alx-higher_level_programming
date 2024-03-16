@@ -1,2 +1,1 @@
-0x02. Python - import & modules
-
+This is for importing module in python by ALX

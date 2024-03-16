@@ -1,2 +1,1 @@
-0x01. Python - if/else, loops, functions
-
+this is for the if else in c

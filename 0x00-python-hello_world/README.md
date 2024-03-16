@@ -1,2 +1,2 @@
-0x00. Python - Hello, World
 
+this is the folder for the first project bout writting shell scripts that can execute python scripts
