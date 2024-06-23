@@ -1,14 +1,7 @@
 #!/usr/bin/node
-const args = process.argv.slice(2);
-let argCount = 0;
-for (const arg of args) {
- argCount++;
-}
-switch (argCount) {
- case 0:
-  console.log("No arguments were passed.");
-  break;
- default:
-  console.log(args[0]);
-  break;
+const array = process.argv.slice(2);
+if (array[0] === undefined) {
+ console.log("No argument");
+} else {
+ console.log(array[0]);
 }
