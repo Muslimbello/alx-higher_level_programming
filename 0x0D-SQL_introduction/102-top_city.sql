@@ -1,7 +1,8 @@
--- select the city with the highest temperature
--- in the month of july
-SELECT city, AVG(value) AS 'avg_temp'
-FROM temperatures
-WHERE month BETWEEN 7 AND 8
-GROUP BY city
-ORDER BY AVG(value) DESC LIMIT 3
+-- Displays the 3 cities with the highest average
+-- temperatures between July and August.
+SELECT `city`, AVG(`value`) AS `avg_temp`
+FROM `temperatures`
+WHERE `month` = 7 OR `month` = 8
+GROUP BY `city`
+ORDER BY `avg_temp` DESC
+LIMIT 3;
